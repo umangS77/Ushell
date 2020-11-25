@@ -1,0 +1,20 @@
+subl jobs.c
+subl job.c
+subl check_bg.c
+quit
+emacs
+jobs
+kjob 1 9
+emacs &
+overkill
+emacs &
+fg 1
+jobs
+ls
+emacs &
+jobs
+kjob 1 9
+emacs &
+jobs
+kjob 1 9
+clear
