@@ -50,7 +50,7 @@ contains code to check if any background process has ended normally or abnormall
 ### echo.c:
 contains code to execute function of "echo" command. Extra spaces and tabs are trimmed.
 
-### exec_comms.c:
+###exec_comms.c:
 matches the command to be execute and then calls the appropriate function with required parameters.
 
 ### fgbg.c:
@@ -66,7 +66,7 @@ contains code to list all the currently running background processes.
 contains code to kill a specific process, specified by its Jobid.
 
 ### ls.c:
-contains code to execute function of "ls" command. Used functions like opendir(directory_address), readdir(directory_address), stat(parameters), getpid(parameters), getgrgid(parameters), ctime(parameters).
+contains code to execute function of "ls" command. Used functions like opendir(directory_address), readdir(directory_address), stat(parameters), getpwuid(parameters), getgrgid(parameters), ctime(parameters).
 
 ### nightswatch.c:
 contains code to execute function which print the number of times the CPU(s) have been interrupted by keyboard controller. A line is printed every x seconds as input by user and the program is stopped if 'q' is pressed. Tokens 1 and 3 are printed from the proc/interrupt file since token 1 is CPU core number and token 3 is the value.
