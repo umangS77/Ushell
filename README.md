@@ -10,20 +10,20 @@ makefile
 ```
 ## Supported Commands
 
-cd < . / .. / ~ / - / directoryName / directoryPath >
-ls < . / .. / -l / -a / -la / -al >
-echo <argument>
-pinfo <pid> (argument optional)
-fg <job number>
-bg <job number>
-history <argument> (argument optional)
-nightswatch -n [time interval] interrupt
-setenv var [value]
-unsetenv var
-jobs
-kjob <job number> <signal number>
-overkill
-quit
+cd < . / .. / ~ / - / directoryName / directoryPath >  
+ls < . / .. / -l / -a / -la / -al >  
+echo <argument>  
+pinfo <pid> (argument optional)  
+fg <job number>  
+bg <job number>  
+history <argument> (argument optional)  
+nightswatch -n [time interval] interrupt  
+setenv var [value]  
+unsetenv var  
+jobs  
+kjob <job number> <signal number>  
+overkill  
+quit  
 
 ## Signal Handling
 
